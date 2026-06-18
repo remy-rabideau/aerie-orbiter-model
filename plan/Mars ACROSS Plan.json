@@ -1,0 +1,3441 @@
+{
+  "activities": [
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1454,
+      "metadata": {},
+      "name": "SpacecraftExitEclipse_MARS",
+      "start_offset": "16:45:08.194018",
+      "tags": [],
+      "type": "SpacecraftExitEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1455,
+      "metadata": {},
+      "name": "Apoapsis_MARS",
+      "start_offset": "08:31:29.921243",
+      "tags": [],
+      "type": "Apoapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16131650
+      },
+      "id": 1456,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "25:37:54.724525",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16085940
+      },
+      "id": 1457,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "01:47:19.07946",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1458,
+      "metadata": {},
+      "name": "Periapsis_MARS",
+      "start_offset": "09:27:15.856557",
+      "tags": [],
+      "type": "Periapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1459,
+      "metadata": {},
+      "name": "Apoapsis_MARS",
+      "start_offset": "16:00:16.714879",
+      "tags": [],
+      "type": "Apoapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1460,
+      "metadata": {},
+      "name": "SpacecraftExitEclipse_MARS",
+      "start_offset": "44:47:50.095537",
+      "tags": [],
+      "type": "SpacecraftExitEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1461,
+      "metadata": {},
+      "name": "EnterOccultation_MARS",
+      "start_offset": "09:03:20.684196",
+      "tags": [],
+      "type": "EnterOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16099053
+      },
+      "id": 1462,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "05:31:48.437432",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1463,
+      "metadata": {},
+      "name": "Apoapsis_MARS",
+      "start_offset": "10:23:44.025221",
+      "tags": [],
+      "type": "Apoapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "FULL",
+        "duration": 1652841653
+      },
+      "id": 1464,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "20:01:42.299359",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1465,
+      "metadata": {},
+      "name": "ExitOccultation_MARS",
+      "start_offset": "03:59:43.545711",
+      "tags": [],
+      "type": "ExitOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "FULL",
+        "duration": 1650995151
+      },
+      "id": 1466,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "05:04:17.44228",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1467,
+      "metadata": {},
+      "name": "Apoapsis_MARS",
+      "start_offset": "27:13:28.036894",
+      "tags": [],
+      "type": "Apoapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1468,
+      "metadata": {},
+      "name": "EnterOccultation_MARS",
+      "start_offset": "27:45:00.954777",
+      "tags": [],
+      "type": "EnterOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1469,
+      "metadata": {},
+      "name": "Periapsis_MARS",
+      "start_offset": "00:05:52.681542",
+      "tags": [],
+      "type": "Periapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1470,
+      "metadata": {},
+      "name": "SpacecraftExitEclipse_MARS",
+      "start_offset": "05:32:04.536485",
+      "tags": [],
+      "type": "SpacecraftExitEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16057033
+      },
+      "id": 1471,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "01:19:33.200711",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1472,
+      "metadata": {},
+      "name": "Periapsis_MARS",
+      "start_offset": "28:09:38.045139",
+      "tags": [],
+      "type": "Periapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1473,
+      "metadata": {},
+      "name": "ExitOccultation_MARS",
+      "start_offset": "15:12:49.41751",
+      "tags": [],
+      "type": "ExitOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1474,
+      "metadata": {},
+      "name": "ExitOccultation_MARS",
+      "start_offset": "17:05:02.69209",
+      "tags": [],
+      "type": "ExitOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1475,
+      "metadata": {},
+      "name": "ExitOccultation_MARS",
+      "start_offset": "28:18:01.145542",
+      "tags": [],
+      "type": "ExitOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1476,
+      "metadata": {},
+      "name": "Periapsis_MARS",
+      "start_offset": "43:06:59.909507",
+      "tags": [],
+      "type": "Periapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16162112
+      },
+      "id": 1477,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "46:11:58.789679",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1478,
+      "metadata": {},
+      "name": "EnterOccultation_MARS",
+      "start_offset": "37:05:51.099118",
+      "tags": [],
+      "type": "EnterOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1479,
+      "metadata": {},
+      "name": "ExitOccultation_MARS",
+      "start_offset": "43:15:33.468629",
+      "tags": [],
+      "type": "ExitOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1480,
+      "metadata": {},
+      "name": "EnterOccultation_MARS",
+      "start_offset": "07:11:13.452203",
+      "tags": [],
+      "type": "EnterOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1481,
+      "metadata": {},
+      "name": "ExitOccultation_MARS",
+      "start_offset": "26:25:48.552334",
+      "tags": [],
+      "type": "ExitOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1482,
+      "metadata": {},
+      "name": "EnterOccultation_MARS",
+      "start_offset": "20:16:22.668621",
+      "tags": [],
+      "type": "EnterOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16136696
+      },
+      "id": 1483,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "31:14:34.918888",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1484,
+      "metadata": {},
+      "name": "ExitOccultation_MARS",
+      "start_offset": "46:59:53.074816",
+      "tags": [],
+      "type": "ExitOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1485,
+      "metadata": {},
+      "name": "ExitOccultation_MARS",
+      "start_offset": "13:20:35.753386",
+      "tags": [],
+      "type": "ExitOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1486,
+      "metadata": {},
+      "name": "SpacecraftExitEclipse_MARS",
+      "start_offset": "29:50:20.828531",
+      "tags": [],
+      "type": "SpacecraftExitEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1487,
+      "metadata": {},
+      "name": "EnterOccultation_MARS",
+      "start_offset": "42:42:29.308426",
+      "tags": [],
+      "type": "EnterOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16097820
+      },
+      "id": 1488,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "24:13:28.78642",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1489,
+      "metadata": {},
+      "name": "ExitOccultation_MARS",
+      "start_offset": "07:44:11.902362",
+      "tags": [],
+      "type": "ExitOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1490,
+      "metadata": {},
+      "name": "Apoapsis_MARS",
+      "start_offset": "34:42:17.517646",
+      "tags": [],
+      "type": "Apoapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1491,
+      "metadata": {},
+      "name": "ExitOccultation_MARS",
+      "start_offset": "02:07:30.288223",
+      "tags": [],
+      "type": "ExitOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16141407
+      },
+      "id": 1492,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "31:42:19.695541",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1493,
+      "metadata": {},
+      "name": "ExitOccultation_MARS",
+      "start_offset": "09:36:20.061849",
+      "tags": [],
+      "type": "ExitOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "FULL",
+        "duration": 1645944121
+      },
+      "id": 1494,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "42:27:56.567763",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1495,
+      "metadata": {},
+      "name": "ExitOccultation_MARS",
+      "start_offset": "45:07:44.128969",
+      "tags": [],
+      "type": "ExitOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1496,
+      "metadata": {},
+      "name": "Periapsis_MARS",
+      "start_offset": "05:43:28.606317",
+      "tags": [],
+      "type": "Periapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1497,
+      "metadata": {},
+      "name": "ExitOccultation_MARS",
+      "start_offset": "33:54:38.823093",
+      "tags": [],
+      "type": "ExitOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1498,
+      "metadata": {},
+      "name": "Apoapsis_MARS",
+      "start_offset": "19:44:34.408736",
+      "tags": [],
+      "type": "Apoapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1499,
+      "metadata": {},
+      "name": "Apoapsis_MARS",
+      "start_offset": "17:52:15.797667",
+      "tags": [],
+      "type": "Apoapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1500,
+      "metadata": {},
+      "name": "Apoapsis_MARS",
+      "start_offset": "21:36:46.144693",
+      "tags": [],
+      "type": "Apoapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16095959
+      },
+      "id": 1501,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "13:00:25.108346",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1502,
+      "metadata": {},
+      "name": "Periapsis_MARS",
+      "start_offset": "07:35:23.702162",
+      "tags": [],
+      "type": "Periapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1503,
+      "metadata": {},
+      "name": "EnterOccultation_MARS",
+      "start_offset": "46:26:46.871694",
+      "tags": [],
+      "type": "EnterOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16061231
+      },
+      "id": 1504,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "11:08:15.213983",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16071650
+      },
+      "id": 1505,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "22:21:23.586355",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1506,
+      "metadata": {},
+      "name": "Apoapsis_MARS",
+      "start_offset": "47:47:19.589145",
+      "tags": [],
+      "type": "Apoapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16116925
+      },
+      "id": 1507,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "34:58:48.614923",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1508,
+      "metadata": {},
+      "name": "Apoapsis_MARS",
+      "start_offset": "30:58:23.223834",
+      "tags": [],
+      "type": "Apoapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "FULL",
+        "duration": 1649983783
+      },
+      "id": 1509,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "33:06:59.248378",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "FULL",
+        "duration": 1649821715
+      },
+      "id": 1510,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "01:19:49.257745",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1511,
+      "metadata": {},
+      "name": "Periapsis_MARS",
+      "start_offset": "26:16:58.601957",
+      "tags": [],
+      "type": "Periapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16169917
+      },
+      "id": 1512,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "29:22:22.244906",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1513,
+      "metadata": {},
+      "name": "Apoapsis_MARS",
+      "start_offset": "32:50:12.827455",
+      "tags": [],
+      "type": "Apoapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1514,
+      "metadata": {},
+      "name": "EnterOccultation_MARS",
+      "start_offset": "31:29:27.262674",
+      "tags": [],
+      "type": "EnterOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "FULL",
+        "duration": 1649711870
+      },
+      "id": 1515,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "12:32:55.396476",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16108215
+      },
+      "id": 1516,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "33:06:43.140162",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16087298
+      },
+      "id": 1517,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "20:29:15.141013",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "FULL",
+        "duration": 1648699316
+      },
+      "id": 1518,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "16:17:23.382486",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1519,
+      "metadata": {},
+      "name": "Periapsis_MARS",
+      "start_offset": "11:19:24.37932",
+      "tags": [],
+      "type": "Periapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16189065
+      },
+      "id": 1520,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "38:43:15.337541",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16109130
+      },
+      "id": 1521,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "14:52:38.66447",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "FULL",
+        "duration": 1644219623
+      },
+      "id": 1522,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "38:43:31.526606",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1523,
+      "metadata": {},
+      "name": "Periapsis_MARS",
+      "start_offset": "16:56:10.783079",
+      "tags": [],
+      "type": "Periapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1524,
+      "metadata": {},
+      "name": "Apoapsis_MARS",
+      "start_offset": "04:47:32.230782",
+      "tags": [],
+      "type": "Apoapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1525,
+      "metadata": {},
+      "name": "SpacecraftExitEclipse_MARS",
+      "start_offset": "11:08:31.275214",
+      "tags": [],
+      "type": "SpacecraftExitEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16087956
+      },
+      "id": 1526,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "03:11:46.584378",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1527,
+      "metadata": {},
+      "name": "Periapsis_MARS",
+      "start_offset": "44:59:10.110757",
+      "tags": [],
+      "type": "Periapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16112215
+      },
+      "id": 1528,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "16:44:52.081802",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1529,
+      "metadata": {},
+      "name": "ExitOccultation_MARS",
+      "start_offset": "22:41:32.77577",
+      "tags": [],
+      "type": "ExitOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "FULL",
+        "duration": 1644179782
+      },
+      "id": 1530,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "40:35:45.412013",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1531,
+      "metadata": {},
+      "name": "SpacecraftExitEclipse_MARS",
+      "start_offset": "01:47:35.165401",
+      "tags": [],
+      "type": "SpacecraftExitEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1532,
+      "metadata": {},
+      "name": "SpacecraftExitEclipse_MARS",
+      "start_offset": "35:26:49.845876",
+      "tags": [],
+      "type": "SpacecraftExitEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16163044
+      },
+      "id": 1533,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "36:51:00.320438",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1534,
+      "metadata": {},
+      "name": "EnterOccultation_MARS",
+      "start_offset": "14:39:51.502379",
+      "tags": [],
+      "type": "EnterOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1535,
+      "metadata": {},
+      "name": "EnterOccultation_MARS",
+      "start_offset": "22:08:30.993178",
+      "tags": [],
+      "type": "EnterOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16104465
+      },
+      "id": 1536,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "14:24:54.116024",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1537,
+      "metadata": {},
+      "name": "Apoapsis_MARS",
+      "start_offset": "29:06:09.167975",
+      "tags": [],
+      "type": "Apoapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1538,
+      "metadata": {},
+      "name": "EnterOccultation_MARS",
+      "start_offset": "35:13:40.572296",
+      "tags": [],
+      "type": "EnterOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "FULL",
+        "duration": 1646230369
+      },
+      "id": 1539,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "29:22:38.414823",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1540,
+      "metadata": {},
+      "name": "SpacecraftExitEclipse_MARS",
+      "start_offset": "14:52:54.7736",
+      "tags": [],
+      "type": "SpacecraftExitEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1541,
+      "metadata": {},
+      "name": "Apoapsis_MARS",
+      "start_offset": "02:54:56.72535",
+      "tags": [],
+      "type": "Apoapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1542,
+      "metadata": {},
+      "name": "SpacecraftExitEclipse_MARS",
+      "start_offset": "42:55:38.697009",
+      "tags": [],
+      "type": "SpacecraftExitEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "FULL",
+        "duration": 1653344081
+      },
+      "id": 1543,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "06:56:29.328068",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16083726
+      },
+      "id": 1544,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "12:32:39.312749",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1545,
+      "metadata": {},
+      "name": "Apoapsis_MARS",
+      "start_offset": "23:28:37.460257",
+      "tags": [],
+      "type": "Apoapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1546,
+      "metadata": {},
+      "name": "SpacecraftExitEclipse_MARS",
+      "start_offset": "18:37:20.508076",
+      "tags": [],
+      "type": "SpacecraftExitEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1547,
+      "metadata": {},
+      "name": "SpacecraftExitEclipse_MARS",
+      "start_offset": "20:29:31.228312",
+      "tags": [],
+      "type": "SpacecraftExitEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1548,
+      "metadata": {},
+      "name": "Apoapsis_MARS",
+      "start_offset": "01:02:11.116357",
+      "tags": [],
+      "type": "Apoapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16078199
+      },
+      "id": 1549,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "05:04:01.36408",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "FULL",
+        "duration": 1654542297
+      },
+      "id": 1550,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "08:48:36.594657",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "FULL",
+        "duration": 1652343201
+      },
+      "id": 1551,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "21:53:51.243154",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "FULL",
+        "duration": 1648443980
+      },
+      "id": 1552,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "14:25:10.22049",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1553,
+      "metadata": {},
+      "name": "SpacecraftExitEclipse_MARS",
+      "start_offset": "46:39:59.425009",
+      "tags": [],
+      "type": "SpacecraftExitEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1554,
+      "metadata": {},
+      "name": "Periapsis_MARS",
+      "start_offset": "20:40:33.699138",
+      "tags": [],
+      "type": "Periapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1555,
+      "metadata": {},
+      "name": "ExitOccultation_MARS",
+      "start_offset": "35:46:44.103418",
+      "tags": [],
+      "type": "ExitOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "FULL",
+        "duration": 1646030668
+      },
+      "id": 1556,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "25:38:10.856176",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1557,
+      "metadata": {},
+      "name": "ExitOccultation_MARS",
+      "start_offset": "30:10:15.963036",
+      "tags": [],
+      "type": "ExitOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16042679
+      },
+      "id": 1558,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "06:56:13.285389",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "FULL",
+        "duration": 1648231145
+      },
+      "id": 1559,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "23:46:00.555274",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1560,
+      "metadata": {},
+      "name": "EnterOccultation_MARS",
+      "start_offset": "44:34:38.229263",
+      "tags": [],
+      "type": "EnterOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1561,
+      "metadata": {},
+      "name": "SpacecraftExitEclipse_MARS",
+      "start_offset": "26:05:53.037076",
+      "tags": [],
+      "type": "SpacecraftExitEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1562,
+      "metadata": {},
+      "name": "SpacecraftExitEclipse_MARS",
+      "start_offset": "37:18:58.486368",
+      "tags": [],
+      "type": "SpacecraftExitEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "FULL",
+        "duration": 1649591181
+      },
+      "id": 1563,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "03:12:02.672335",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16104081
+      },
+      "id": 1564,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "16:17:07.278404",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "FULL",
+        "duration": 1648323456
+      },
+      "id": 1565,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "46:12:14.951792",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16183339
+      },
+      "id": 1566,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "29:50:04.645192",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1567,
+      "metadata": {},
+      "name": "Periapsis_MARS",
+      "start_offset": "22:32:27.341868",
+      "tags": [],
+      "type": "Periapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1568,
+      "metadata": {},
+      "name": "Periapsis_MARS",
+      "start_offset": "15:04:00.826183",
+      "tags": [],
+      "type": "Periapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1569,
+      "metadata": {},
+      "name": "SpacecraftExitEclipse_MARS",
+      "start_offset": "31:42:35.836949",
+      "tags": [],
+      "type": "SpacecraftExitEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1570,
+      "metadata": {},
+      "name": "Apoapsis_MARS",
+      "start_offset": "40:18:56.32763",
+      "tags": [],
+      "type": "Apoapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1571,
+      "metadata": {},
+      "name": "Periapsis_MARS",
+      "start_offset": "46:51:08.078264",
+      "tags": [],
+      "type": "Periapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1572,
+      "metadata": {},
+      "name": "SpacecraftExitEclipse_MARS",
+      "start_offset": "41:03:25.778948",
+      "tags": [],
+      "type": "SpacecraftExitEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16111912
+      },
+      "id": 1573,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "03:39:32.263517",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16149759
+      },
+      "id": 1574,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "46:39:43.27525",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1575,
+      "metadata": {},
+      "name": "Apoapsis_MARS",
+      "start_offset": "06:39:41.834853",
+      "tags": [],
+      "type": "Apoapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1576,
+      "metadata": {},
+      "name": "Apoapsis_MARS",
+      "start_offset": "44:03:11.423106",
+      "tags": [],
+      "type": "Apoapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1577,
+      "metadata": {},
+      "name": "EnterOccultation_MARS",
+      "start_offset": "10:55:26.077029",
+      "tags": [],
+      "type": "EnterOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1578,
+      "metadata": {},
+      "name": "Apoapsis_MARS",
+      "start_offset": "45:55:28.380414",
+      "tags": [],
+      "type": "Apoapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1579,
+      "metadata": {},
+      "name": "SpacecraftExitEclipse_MARS",
+      "start_offset": "27:58:05.363359",
+      "tags": [],
+      "type": "SpacecraftExitEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "FULL",
+        "duration": 1645449657
+      },
+      "id": 1580,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "27:30:23.730673",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1581,
+      "metadata": {},
+      "name": "Apoapsis_MARS",
+      "start_offset": "36:34:36.733633",
+      "tags": [],
+      "type": "Apoapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1582,
+      "metadata": {},
+      "name": "EnterOccultation_MARS",
+      "start_offset": "18:24:14.307678",
+      "tags": [],
+      "type": "EnterOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1583,
+      "metadata": {},
+      "name": "Apoapsis_MARS",
+      "start_offset": "38:26:49.68163",
+      "tags": [],
+      "type": "Apoapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1584,
+      "metadata": {},
+      "name": "Periapsis_MARS",
+      "start_offset": "33:45:54.002485",
+      "tags": [],
+      "type": "Periapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1585,
+      "metadata": {},
+      "name": "Apoapsis_MARS",
+      "start_offset": "42:10:55.518501",
+      "tags": [],
+      "type": "Apoapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1586,
+      "metadata": {},
+      "name": "EnterOccultation_MARS",
+      "start_offset": "01:34:35.153282",
+      "tags": [],
+      "type": "EnterOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "FULL",
+        "duration": 1650717493
+      },
+      "id": 1587,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "18:09:33.68492",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16166576
+      },
+      "id": 1588,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "37:18:42.319792",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1589,
+      "metadata": {},
+      "name": "ExitOccultation_MARS",
+      "start_offset": "18:57:14.525471",
+      "tags": [],
+      "type": "ExitOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16184198
+      },
+      "id": 1590,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "39:10:55.74623",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1591,
+      "metadata": {},
+      "name": "Periapsis_MARS",
+      "start_offset": "18:48:24.227766",
+      "tags": [],
+      "type": "Periapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1592,
+      "metadata": {},
+      "name": "ExitOccultation_MARS",
+      "start_offset": "11:28:25.137137",
+      "tags": [],
+      "type": "ExitOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1593,
+      "metadata": {},
+      "name": "SpacecraftExitEclipse_MARS",
+      "start_offset": "07:24:18.727648",
+      "tags": [],
+      "type": "SpacecraftExitEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16165767
+      },
+      "id": 1594,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "44:47:33.92977",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16163555
+      },
+      "id": 1595,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "44:19:49.518632",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1596,
+      "metadata": {},
+      "name": "EnterOccultation_MARS",
+      "start_offset": "05:19:01.720621",
+      "tags": [],
+      "type": "EnterOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1597,
+      "metadata": {},
+      "name": "Periapsis_MARS",
+      "start_offset": "01:58:29.090551",
+      "tags": [],
+      "type": "Periapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16182138
+      },
+      "id": 1598,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "42:27:40.385625",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16039172
+      },
+      "id": 1599,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "10:40:26.52108",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1600,
+      "metadata": {},
+      "name": "Periapsis_MARS",
+      "start_offset": "24:24:26.17687",
+      "tags": [],
+      "type": "Periapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16183028
+      },
+      "id": 1601,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "27:57:49.180331",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16074393
+      },
+      "id": 1602,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "20:01:26.224966",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16090847
+      },
+      "id": 1603,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "23:45:44.464427",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1604,
+      "metadata": {},
+      "name": "Periapsis_MARS",
+      "start_offset": "37:30:17.430667",
+      "tags": [],
+      "type": "Periapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1605,
+      "metadata": {},
+      "name": "Periapsis_MARS",
+      "start_offset": "03:51:06.693593",
+      "tags": [],
+      "type": "Periapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16105662
+      },
+      "id": 1606,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "18:37:04.402414",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1607,
+      "metadata": {},
+      "name": "SpacecraftExitEclipse_MARS",
+      "start_offset": "22:21:39.658006",
+      "tags": [],
+      "type": "SpacecraftExitEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1608,
+      "metadata": {},
+      "name": "EnterOccultation_MARS",
+      "start_offset": "03:26:47.579942",
+      "tags": [],
+      "type": "EnterOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16032584
+      },
+      "id": 1609,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "09:16:11.136955",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16127547
+      },
+      "id": 1610,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "35:26:33.718329",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16072867
+      },
+      "id": 1611,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "21:53:35.170286",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1612,
+      "metadata": {},
+      "name": "Apoapsis_MARS",
+      "start_offset": "14:08:13.052079",
+      "tags": [],
+      "type": "Apoapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1613,
+      "metadata": {},
+      "name": "ExitOccultation_MARS",
+      "start_offset": "24:33:39.252937",
+      "tags": [],
+      "type": "ExitOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1614,
+      "metadata": {},
+      "name": "EnterOccultation_MARS",
+      "start_offset": "29:37:14.857434",
+      "tags": [],
+      "type": "EnterOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16113343
+      },
+      "id": 1615,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "33:34:29.232162",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1616,
+      "metadata": {},
+      "name": "SpacecraftExitEclipse_MARS",
+      "start_offset": "09:16:27.169539",
+      "tags": [],
+      "type": "SpacecraftExitEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16185124
+      },
+      "id": 1617,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "42:55:22.511885",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "FULL",
+        "duration": 1648247582
+      },
+      "id": 1618,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "44:20:05.682187",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1619,
+      "metadata": {},
+      "name": "ExitOccultation_MARS",
+      "start_offset": "32:02:29.771153",
+      "tags": [],
+      "type": "ExitOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1620,
+      "metadata": {},
+      "name": "EnterOccultation_MARS",
+      "start_offset": "38:58:05.078283",
+      "tags": [],
+      "type": "EnterOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1621,
+      "metadata": {},
+      "name": "SpacecraftExitEclipse_MARS",
+      "start_offset": "33:34:45.345504",
+      "tags": [],
+      "type": "SpacecraftExitEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16090195
+      },
+      "id": 1622,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "18:09:17.594724",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1623,
+      "metadata": {},
+      "name": "EnterOccultation_MARS",
+      "start_offset": "24:00:39.628137",
+      "tags": [],
+      "type": "EnterOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1624,
+      "metadata": {},
+      "name": "SpacecraftExitEclipse_MARS",
+      "start_offset": "39:11:11.930429",
+      "tags": [],
+      "type": "SpacecraftExitEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1625,
+      "metadata": {},
+      "name": "ExitOccultation_MARS",
+      "start_offset": "39:31:07.259098",
+      "tags": [],
+      "type": "ExitOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1626,
+      "metadata": {},
+      "name": "Periapsis_MARS",
+      "start_offset": "30:02:04.317986",
+      "tags": [],
+      "type": "Periapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1627,
+      "metadata": {},
+      "name": "ExitOccultation_MARS",
+      "start_offset": "05:51:58.818946",
+      "tags": [],
+      "type": "ExitOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1628,
+      "metadata": {},
+      "name": "EnterOccultation_MARS",
+      "start_offset": "00:00:00",
+      "tags": [],
+      "type": "EnterOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1629,
+      "metadata": {},
+      "name": "EnterOccultation_MARS",
+      "start_offset": "25:52:49.076419",
+      "tags": [],
+      "type": "EnterOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "FULL",
+        "duration": 1652653729
+      },
+      "id": 1630,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "10:40:42.560253",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1631,
+      "metadata": {},
+      "name": "SpacecraftExitEclipse_MARS",
+      "start_offset": "13:00:41.204306",
+      "tags": [],
+      "type": "SpacecraftExitEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1632,
+      "metadata": {},
+      "name": "Periapsis_MARS",
+      "start_offset": "31:54:03.011424",
+      "tags": [],
+      "type": "Periapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1633,
+      "metadata": {},
+      "name": "ExitOccultation_MARS",
+      "start_offset": "00:15:20.160393",
+      "tags": [],
+      "type": "ExitOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "FULL",
+        "duration": 1648639956
+      },
+      "id": 1634,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "31:14:51.055584",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1635,
+      "metadata": {},
+      "name": "SpacecraftExitEclipse_MARS",
+      "start_offset": "03:39:48.375429",
+      "tags": [],
+      "type": "SpacecraftExitEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16150231
+      },
+      "id": 1636,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "26:05:36.886845",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1637,
+      "metadata": {},
+      "name": "ExitOccultation_MARS",
+      "start_offset": "41:23:20.984561",
+      "tags": [],
+      "type": "ExitOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1638,
+      "metadata": {},
+      "name": "Periapsis_MARS",
+      "start_offset": "35:37:56.491907",
+      "tags": [],
+      "type": "Periapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1639,
+      "metadata": {},
+      "name": "EnterOccultation_MARS",
+      "start_offset": "12:47:37.641557",
+      "tags": [],
+      "type": "EnterOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16187150
+      },
+      "id": 1640,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "41:03:09.591797",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16167254
+      },
+      "id": 1641,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "27:30:07.563418",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "FULL",
+        "duration": 1648986479
+      },
+      "id": 1642,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "34:59:04.731849",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1643,
+      "metadata": {},
+      "name": "Apoapsis_MARS",
+      "start_offset": "25:20:45.931714",
+      "tags": [],
+      "type": "Apoapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1644,
+      "metadata": {},
+      "name": "Periapsis_MARS",
+      "start_offset": "41:14:44.314231",
+      "tags": [],
+      "type": "Periapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1645,
+      "metadata": {},
+      "name": "Apoapsis_MARS",
+      "start_offset": "12:16:01.583243",
+      "tags": [],
+      "type": "Apoapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1646,
+      "metadata": {},
+      "name": "Periapsis_MARS",
+      "start_offset": "13:11:45.455358",
+      "tags": [],
+      "type": "Periapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16018409
+      },
+      "id": 1647,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "08:48:20.576247",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1648,
+      "metadata": {},
+      "name": "ExitOccultation_MARS",
+      "start_offset": "20:49:24.544892",
+      "tags": [],
+      "type": "ExitOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1649,
+      "metadata": {},
+      "name": "SpacecraftExitEclipse_MARS",
+      "start_offset": "24:13:44.88424",
+      "tags": [],
+      "type": "SpacecraftExitEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS"
+      },
+      "id": 1650,
+      "metadata": {},
+      "name": "Periapsis_MARS",
+      "start_offset": "39:22:34.793886",
+      "tags": [],
+      "type": "Periapsis"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1651,
+      "metadata": {},
+      "name": "ExitOccultation_MARS",
+      "start_offset": "37:38:53.636329",
+      "tags": [],
+      "type": "ExitOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1652,
+      "metadata": {},
+      "name": "EnterOccultation_MARS",
+      "start_offset": "33:21:35.427702",
+      "tags": [],
+      "type": "EnterOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1653,
+      "metadata": {},
+      "name": "EnterOccultation_MARS",
+      "start_offset": "16:32:04.157089",
+      "tags": [],
+      "type": "EnterOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16055498
+      },
+      "id": 1654,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "07:24:02.67215",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "FULL",
+        "duration": 1645836309
+      },
+      "id": 1655,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "36:51:16.483482",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "station": "DSS-24"
+      },
+      "id": 1656,
+      "metadata": {},
+      "name": "EnterOccultation_MARS",
+      "start_offset": "40:50:18.353211",
+      "tags": [],
+      "type": "EnterOccultation"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "body": "MARS",
+        "type": "PARTIAL",
+        "duration": 16192446
+      },
+      "id": 1657,
+      "metadata": {},
+      "name": "SpacecraftEnterEclipse_MARS",
+      "start_offset": "40:35:29.219566",
+      "tags": [],
+      "type": "SpacecraftEnterEclipse"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "HI_RES"
+      },
+      "id": 1658,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "03:22:57.442042",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "HI_RES"
+      },
+      "id": 1659,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "33:17:55.292361",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "LOW_RES"
+      },
+      "id": 1660,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "00:05:52.681542",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "MED_RES"
+      },
+      "id": 1661,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "16:56:12.526683",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "HI_RES"
+      },
+      "id": 1662,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "18:20:21.302058",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "MED_RES"
+      },
+      "id": 1663,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "24:24:42.971868",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "MED_RES"
+      },
+      "id": 1664,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "01:58:29.687542",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "OFF"
+      },
+      "id": 1665,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "33:45:54.002986",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "MED_RES"
+      },
+      "id": 1666,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "13:11:42.60282",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "LOW_RES"
+      },
+      "id": 1667,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "11:19:24.37932",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "LOW_RES"
+      },
+      "id": 1668,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "30:02:04.317986",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "MED_RES"
+      },
+      "id": 1669,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "28:09:31.459957",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "LOW_RES"
+      },
+      "id": 1670,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "15:04:00.826183",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "LOW_RES"
+      },
+      "id": 1671,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "26:16:58.601957",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "MED_RES"
+      },
+      "id": 1672,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "05:43:15.198093",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "HI_RES"
+      },
+      "id": 1673,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "29:33:56.103457",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "HI_RES"
+      },
+      "id": 1674,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "22:04:26.952516",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "HI_RES"
+      },
+      "id": 1675,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "10:51:24.294537",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "MED_RES"
+      },
+      "id": 1676,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "09:27:24.040662",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "LOW_RES"
+      },
+      "id": 1677,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "03:51:06.693593",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "LOW_RES"
+      },
+      "id": 1678,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "18:48:24.227766",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "HI_RES"
+      },
+      "id": 1679,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "07:07:21.576468",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "MED_RES"
+      },
+      "id": 1680,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "31:53:59.160486",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "MED_RES"
+      },
+      "id": 1681,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "20:40:25.784766",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "HI_RES"
+      },
+      "id": 1682,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "25:48:54.694368",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "HI_RES"
+      },
+      "id": 1683,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "14:35:56.270445",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "LOW_RES"
+      },
+      "id": 1684,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "07:35:23.702162",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "mode": "LOW_RES"
+      },
+      "id": 1685,
+      "metadata": {},
+      "name": "ChangeRadarDataMode",
+      "start_offset": "22:32:27.341868",
+      "tags": [],
+      "type": "ChangeRadarDataMode"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "bitRate": 1000,
+        "duration": 4624761000
+      },
+      "id": 1686,
+      "metadata": {},
+      "name": "Downlink",
+      "start_offset": "43:16:33.468629",
+      "tags": [],
+      "type": "Downlink"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "bitRate": 1000,
+        "duration": 4626996000
+      },
+      "id": 1687,
+      "metadata": {},
+      "name": "Downlink",
+      "start_offset": "35:47:44.103418",
+      "tags": [],
+      "type": "Downlink"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "bitRate": 1000,
+        "duration": 4621749000
+      },
+      "id": 1688,
+      "metadata": {},
+      "name": "Downlink",
+      "start_offset": "33:55:38.823093",
+      "tags": [],
+      "type": "Downlink"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "bitRate": 1000,
+        "duration": 4628324000
+      },
+      "id": 1689,
+      "metadata": {},
+      "name": "Downlink",
+      "start_offset": "41:24:20.984561",
+      "tags": [],
+      "type": "Downlink"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "bitRate": 1000,
+        "duration": 4631094000
+      },
+      "id": 1690,
+      "metadata": {},
+      "name": "Downlink",
+      "start_offset": "39:32:07.259098",
+      "tags": [],
+      "type": "Downlink"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "bitRate": 1000,
+        "duration": 4631442000
+      },
+      "id": 1691,
+      "metadata": {},
+      "name": "Downlink",
+      "start_offset": "37:39:53.636329",
+      "tags": [],
+      "type": "Downlink"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "bitRate": 1000,
+        "duration": 4622743000
+      },
+      "id": 1692,
+      "metadata": {},
+      "name": "Downlink",
+      "start_offset": "45:08:44.128969",
+      "tags": [],
+      "type": "Downlink"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "bitRate": 1000,
+        "duration": 3486926000
+      },
+      "id": 1693,
+      "metadata": {},
+      "name": "Downlink",
+      "start_offset": "47:00:53.074816",
+      "tags": [],
+      "type": "Downlink"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "dataBin": 0,
+        "dataRateBps": 2000000,
+        "dec": 75,
+        "description": "",
+        "emResPower": 1000,
+        "energyMaxKev": 10,
+        "energyMinKev": 0.3,
+        "exposure": 120000000,
+        "ra": 45,
+        "targetName": "Phoenix cluster"
+      },
+      "id": 1694,
+      "metadata": {},
+      "name": "ObserveSpectrum",
+      "start_offset": "01:24:38.7",
+      "tags": [],
+      "type": "ObserveSpectrum"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "dataBin": 0,
+        "dataRateBps": 1000000,
+        "dec": 0,
+        "description": "",
+        "energyMaxKev": 10,
+        "energyMinKev": 0.3,
+        "exposure": 30000000,
+        "ra": 0,
+        "targetName": "Mars"
+      },
+      "id": 1695,
+      "metadata": {},
+      "name": "ImageTarget",
+      "start_offset": "01:26:19.95",
+      "tags": [],
+      "type": "ImageTarget"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "dec": 60,
+        "description": "",
+        "duration": 60000000,
+        "pointingAngle": -19,
+        "ra": 30,
+        "targetName": "UNKNOWN"
+      },
+      "id": 1696,
+      "metadata": {},
+      "name": "Slew",
+      "start_offset": "01:28:33.6",
+      "tags": [],
+      "type": "Slew"
+    },
+    {
+      "anchor_id": null,
+      "anchored_to_start": true,
+      "arguments": {
+        "dataBin": 0,
+        "dataRateBps": 500000,
+        "dec": 88,
+        "description": "",
+        "energyMaxKev": 10,
+        "energyMinKev": 0.3,
+        "exposure": 60000000,
+        "ra": 56,
+        "tResolution": 0.001,
+        "targetName": "Mars"
+      },
+      "id": 1697,
+      "metadata": {},
+      "name": "TimeTarget",
+      "start_offset": "01:31:19.65",
+      "tags": [],
+      "type": "TimeTarget"
+    }
+  ],
+  "duration": "48:00:00",
+  "id": 12,
+  "model_id": 4,
+  "name": "Mars ACROSS Plan",
+  "simulation_arguments": {
+    "powerConfig": {
+      "batteryConfig": {
+        "busVoltage": 28,
+        "initialSOC": 100,
+        "batteryCapacity": 30
+      },
+      "solarArrayConfig": {
+        "otherLosses": 0.9,
+        "arrayMechArea": 16,
+        "packingFactor": 1,
+        "cellEfficiency": 0.295,
+        "deploymentState": "DEPLOYED",
+        "conversionEfficiency": 0.9
+      }
+    }
+  },
+  "start_time": "2024-01-02T00:00:00+00:00",
+  "tags": [],
+  "version": "2"
+}

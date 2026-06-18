@@ -14,16 +14,20 @@ import missionmodel.data.DataMissionModel;
 import missionmodel.geometry.resources.GenericGeometryResources;
 import missionmodel.geometry.spiceinterpolation.GenericGeometryCalculator;
 import missionmodel.geometry.spiceinterpolation.SpiceResourcePopulater;
+import missionmodel.observations.*;
 import missionmodel.power.BatteryModel;
 import missionmodel.power.GenericSolarArray;
 import missionmodel.power.pel.PELModel;
 import missionmodel.spice.Spice;
 import missionmodel.telecom.TelecomModel;
 import missionmodel.radar.RadarModel;
+import spice.basic.Instrument;
 import spice.basic.SpiceErrorException;
 
 import java.nio.file.Path;
 import java.time.Instant;
+import java.util.LinkedHashMap;
+import java.util.Map;
 import java.util.Optional;
 
 import static gov.nasa.jpl.aerie.contrib.metadata.UnitRegistrar.withUnit;
@@ -90,6 +94,9 @@ public final class Mission implements DataMissionModel {
 
   // VISAR Member Variables
   public final RadarModel radarModel;
+
+  public final TelescopeModel telescopeModel;
+  public final Map<String, InstrumentModel> instruments = new LinkedHashMap<>();
 
   public Mission(final gov.nasa.jpl.aerie.merlin.framework.Registrar registrar, final Instant planStart, final Configuration config) {
     //gov.nasa.jpl.aerie.contrib.streamline.debugging.Logging.LOGGER = null;
@@ -161,6 +168,40 @@ public final class Mission implements DataMissionModel {
     // Initialize Radar Model
     //
     this.radarModel = new RadarModel(errorRegistrar, config);
+
+    //
+    // Initialize observatory models
+    //
+    this.telescopeModel = new TelescopeModel(errorRegistrar);
+
+    InstrumentName instrumentA = InstrumentName.Xtend;
+    InstrumentConfig instrumentAConfig = new InstrumentConfig(
+            instrumentA.getInstrumentName(),
+            instrumentA.getInstrumentUUID(),
+            this.telescopeModel,
+            BandpassType.ENERGY,
+            "keV",
+            0.4,
+            13.0,
+            3.96,
+            35.0,
+            8e6);
+    instruments.put(instrumentA.getInstrumentUUID(), new InstrumentModel(errorRegistrar, instrumentAConfig));
+
+    InstrumentName instrumentB = InstrumentName.Resolve;
+    InstrumentConfig instrumentBConfig = new InstrumentConfig(
+            instrumentB.getInstrumentName(),
+            instrumentB.getInstrumentUUID(),
+            this.telescopeModel,
+            BandpassType.ENERGY,
+            "keV",
+            0.3,
+            12.0,
+            8e-5,
+            1200.0,
+            8e6);
+    instruments.put(instrumentB.getInstrumentUUID(), new InstrumentModel(errorRegistrar, instrumentBConfig));
+
   }
 
   @Override
