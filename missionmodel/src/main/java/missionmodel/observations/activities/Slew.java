@@ -60,6 +60,7 @@ public class Slew {
     // Arrive on target and begin tracking.
     DiscreteEffects.set(model.telescopeModel.pointingRa, ra);
     DiscreteEffects.set(model.telescopeModel.pointingDec, dec);
+    DiscreteEffects.set(model.telescopeModel.pointingAngle, pointingAngle);
     DiscreteEffects.set(model.telescopeModel.pointingState, PointingState.TRACKING);
 
   }
