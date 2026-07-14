@@ -31,10 +31,8 @@
 @WithActivityType(Radar_On.class)
 @WithActivityType(ChangeRadarDataMode.class)
 // Observations
-@WithActivityType(ImageTarget.class)
-@WithActivityType(ObserveSpectrum.class)
+@WithActivityType(Observation.class)
 @WithActivityType(Slew.class)
-@WithActivityType(TimeTarget.class)
 
 // @WithMetadata(name = "unit", annotation = gov.nasa.jpl.aerie.contrib.metadata.Unit.class) // for unit support
 package missionmodel;
@@ -60,10 +58,8 @@ import missionmodel.geometry.activities.spawner.AddApoapsis;
 import missionmodel.geometry.activities.spawner.AddOccultations;
 import missionmodel.geometry.activities.spawner.AddPeriapsis;
 import missionmodel.geometry.activities.spawner.AddSpacecraftEclipses;
-import missionmodel.observations.activities.ImageTarget;
-import missionmodel.observations.activities.ObserveSpectrum;
+import missionmodel.observations.activities.Observation;
 import missionmodel.observations.activities.Slew;
-import missionmodel.observations.activities.TimeTarget;
 import missionmodel.power.activities.SolarArrayDeployment;
 import missionmodel.radar.ChangeRadarDataMode;
 import missionmodel.radar.Radar_Off;

@@ -11,19 +11,22 @@ import missionmodel.power.pel.Imager_State;
 import static gov.nasa.jpl.aerie.merlin.protocol.types.Duration.SECONDS;
 
 /**
- * IMAGING observation.  powers the imager,
- * collects data for the exposure duration, then powers down.
+ * ACROSS observation.
+ * Collects data for the exposure duration, then powers down.
  *
  * Maps to ACROSS ObservationType.IMAGING. Parameters map to ACROSS fields:
  *   targetName               -> object_name
  *   exposure                 -> exposure_time
  *   description              -> description
  */
-@ActivityType("ImageTarget")
-public class ImageTarget {
+@ActivityType("Observation")
+public class Observation {
 
   @Parameter
   public InstrumentName instrument;
+
+  @Parameter
+  public ObservationType type;
 
   @Parameter
   public String targetName = "UNKNOWN";
@@ -54,12 +57,12 @@ public class ImageTarget {
     // 1. Record that we're pointing. Pointing position is already set after slewing
     DiscreteEffects.set(model.telescopeModel.pointingState, PointingState.TRACKING);
 
-    // 2. Power the imager (raises PEL load -> both batteries drain) and set science mode.
+    // 2. Power the instrument (raises PEL load -> both batteries drain) and set science mode.
     DiscreteEffects.set(model.pel.imagerState, Imager_State.ON);
-    DiscreteEffects.set(instrumentModel.observationMode, ObservationMode.IMAGING);
+    DiscreteEffects.set(instrumentModel.instrumentState, InstrumentState.ON);
 
     // 3. idle pointing state
-    DiscreteEffects.set(telescope.pointingState, PointingState.IDLE);
+    DiscreteEffects.set(telescope.pointingState, PointingState.OBSERVING);
 
     // 4. Accrue data into the onboard bin over the exposure.
     //    receive(rate, duration) ramps the bin at `rate` bps for `duration`, and
@@ -68,7 +71,8 @@ public class ImageTarget {
 
     // 5. Power down and return the instrument to idle.
     DiscreteEffects.set(model.pel.imagerState, Imager_State.OFF);
-    DiscreteEffects.set(instrumentModel.observationMode, ObservationMode.OFF);
+    DiscreteEffects.set(instrumentModel.instrumentState, InstrumentState.OFF);
+    DiscreteEffects.set(telescope.pointingState, PointingState.IDLE);
 
   }
 

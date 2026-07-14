@@ -4,14 +4,11 @@ import gov.nasa.jpl.aerie.contrib.serialization.mappers.DoubleValueMapper;
 import gov.nasa.jpl.aerie.contrib.serialization.mappers.EnumValueMapper;
 import gov.nasa.jpl.aerie.contrib.serialization.mappers.StringValueMapper;
 import gov.nasa.jpl.aerie.contrib.streamline.core.MutableResource;
-import gov.nasa.jpl.aerie.contrib.streamline.core.Resource;
 import gov.nasa.jpl.aerie.contrib.streamline.modeling.Registrar;
 import gov.nasa.jpl.aerie.contrib.streamline.modeling.discrete.Discrete;
-
 import static gov.nasa.jpl.aerie.contrib.metadata.UnitRegistrar.withUnit;
 import static gov.nasa.jpl.aerie.contrib.streamline.core.MutableResource.resource;
 import static gov.nasa.jpl.aerie.contrib.streamline.modeling.discrete.Discrete.discrete;
-import static gov.nasa.jpl.aerie.contrib.streamline.modeling.discrete.monads.DiscreteResourceMonad.map;
 
 /**
  * Models the science instrument's current observing mode.
@@ -26,11 +23,7 @@ import static gov.nasa.jpl.aerie.contrib.streamline.modeling.discrete.monads.Dis
  */
 public class InstrumentModel {
 
-  /** Current science observing mode (OFF / IMAGING / TIMING / SPECTROSCOPY). */
-  public MutableResource<Discrete<ObservationMode>> observationMode;
-
-  /** Nominal data rate implied by the current mode (Mbps), derived from {@link #observationMode}. */
-  public Resource<Discrete<Double>> instrumentDataRate;
+  public MutableResource<Discrete<InstrumentState>> instrumentState;
 
   public final String name;
   public final String uuid;
@@ -48,13 +41,9 @@ public class InstrumentModel {
     this.name = config.name();
     this.uuid = config.uuid();
 
-    observationMode = resource(discrete(ObservationMode.OFF));
-    registrar.discrete("instrument." + name + "observationMode", observationMode,
-        new EnumValueMapper<>(ObservationMode.class));
-
-    instrumentDataRate = map(observationMode, ObservationMode::getDataRate);
-    registrar.discrete("instrument." + name + "dataRate", instrumentDataRate,
-        withUnit("Mbps", new DoubleValueMapper()));
+    this.instrumentState = resource(discrete(InstrumentState.OFF));
+    registrar.discrete("instrument." + name + ".state", instrumentState,
+        new EnumValueMapper<>(InstrumentState.class));
 
     this.parentTelescope = config.telescope();
     this.bandpassType    = config.bandpassType();
