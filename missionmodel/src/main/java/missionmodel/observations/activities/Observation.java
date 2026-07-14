@@ -61,7 +61,7 @@ public class Observation {
     DiscreteEffects.set(model.pel.imagerState, Imager_State.ON);
     DiscreteEffects.set(instrumentModel.instrumentState, InstrumentState.ON);
 
-    // 3. idle pointing state
+    // 3. Mark telescope as actively observing.
     DiscreteEffects.set(telescope.pointingState, PointingState.OBSERVING);
 
     // 4. Accrue data into the onboard bin over the exposure.

@@ -13,13 +13,13 @@ import missionmodel.observations.PointingState;
 
 /**
  * SLEW maneuver -- repoints the telescope to a new target. Collects no light, so no
- * bandpass or data; just changes the pointing over the slew duration.
+ * bandpass or data; just changes the pointing over the slew duration. This is separate
+ * from the ACROSS-specific slew activity, which includes power-on and data collection.
  *
- * Maps to ACROSS ObservationType.SLEW. Parameters map to ACROSS fields:
- *   targetName    -> object_name
- *   ra, dec       -> pointing_position (the destination)
- *   pointingAngle -> pointing_angle (roll about boresight)
- *   description   -> description
+ * This activity sets {@code telescopeModel.pointingRa}, {@code pointingDec}, and
+ * {@code pointingAngle} on arrival. A subsequent {@code Observation} activity reads
+ * those most-recently-set values to record where the telescope was pointed during the
+ * exposure; those pointing values are what get reported to ACROSS.
  */
 @ActivityType("Slew")
 public class Slew {
@@ -31,7 +31,7 @@ public class Slew {
   public double dec = 0.0;         // degrees, -90–90
 
   @Parameter
-  public double pointingAngle = 0.0; // roll about boresight, degrees
+  public double pointingAngle = 0.0; // roll about boresight, degrees, -180–180
 
   @Parameter
   public Duration duration = Duration.duration(60, SECONDS);
@@ -46,6 +46,12 @@ public class Slew {
   @Validation.Subject("dec")
   public boolean validateDec() {
     return dec >= -90.0 && dec <= 90.0;
+  }
+
+  @Validation("Pointing angle must be within [-180, 180] degrees")
+  @Validation.Subject("pointingAngle")
+  public boolean validatePointingAngle() {
+    return pointingAngle >= -180.0 && pointingAngle <= 180.0;
   }
 
   @ActivityType.EffectModel

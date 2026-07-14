@@ -11,15 +11,14 @@ import static gov.nasa.jpl.aerie.contrib.streamline.core.MutableResource.resourc
 import static gov.nasa.jpl.aerie.contrib.streamline.modeling.discrete.Discrete.discrete;
 
 /**
- * Models the science instrument's current observing mode.
+ * Models a science instrument's power state and static configuration.
  *
- * Mirrors {@code RadarModel}: a single mutable state resource ({@link #observationMode})
- * drives a derived data-rate resource ({@link #instrumentDataRate}). The observation
- * activities flip the mode at the start/end of an observation; the rate indicator
- * follows automatically.
+ * Holds a single mutable state resource ({@link #instrumentState}) that activities
+ * flip between {@link InstrumentState#OFF} and {@link InstrumentState#ON} at the
+ * start and end of an {@code Observation}. Static bandpass and rate parameters
+ * are registered as read-only discrete resources for timeline visibility.
  *
- * Power for the instrument is handled separately via the PEL's {@code imagerState}
- * (see the observation activities), exactly as the radar activities use {@code radarState}.
+ * Power for the instrument is handled separately via the PEL's {@code imagerState}.
  */
 public class InstrumentModel {
 

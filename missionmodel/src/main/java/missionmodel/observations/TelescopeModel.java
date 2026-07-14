@@ -29,6 +29,7 @@ public class TelescopeModel {
   /** Current boresight declination (degrees, -90–90). */
   public MutableResource<Discrete<Double>> pointingDec;
 
+  /** Roll (position angle) about the boresight axis (degrees, -180–180). */
   public MutableResource<Discrete<Double>> pointingAngle;
 
   public TelescopeModel(Registrar registrar) {
